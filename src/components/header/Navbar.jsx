@@ -9,10 +9,10 @@ const Navbar = () => {
     const [MobileMenu, setMobileMenu] = useState(false)
 
     return (
-        <div className='flex justify-between mt-16 mx-24'>
+        <div className='flex justify-between mt-8 mx-24'>
             <div className='' id='header'>
-                <h4 className='font-bold'>
-                    catagory <i className='fa fa-chevron-down'></i>
+                <h4 className='font-bold bg-gray-100 rounded-md'>
+                    Catagories <i className='fa fa-chevron-down'></i>
                 </h4>
             </div>
 
