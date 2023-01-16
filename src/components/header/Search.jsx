@@ -12,10 +12,12 @@ const Search = () => {
                     <span className='text-red-700 font-bold text-3xl'>Bonik</span>
                 </div>
 
-                <div className='ml-36 mt-7 w-3/5 h-11 border-2 border-solid rounded-md text-sm ' id='search'>
+                <div className='relative ml-36 mt-7 w-3/5 h-11 border-2 border-solid rounded-md text-sm ' id='search'>
                     <i className='fa fa-search ml-6 '></i>
                     <input type='text' placeholder='Search and hit enter...' className='w-4/5 h-10 pl-5' />
-                    <span className='text-sm mt-0 w-3/12 opacity-50 border-l-2'>All Catagory</span>
+                    <span className='text-sm  w-3/12 opacity-50 border-l-2'>
+                        <span className='absolute'>All Catagory</span>
+                    </span>
                 </div>
                
                 <div className='mt-6 ml-40'>
